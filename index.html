@@ -1,0 +1,137 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Assignment javascript</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Delius|Handlee|Roboto" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="C:\Data\UI assignments\javascript\styles.css">
+    
+    <script type="text/javascript" src="C:\Data\UI assignments\javascript\main.js"></script>
+
+
+</head>
+<body>
+    <div class="box">
+        <div class="boxy">
+            <div style="width:100%; text-align:center">
+                <h4 class="sectionTitle" style="display:inline">Title 1</h4>
+                <button class="addStickyButton fas fa-plus-circle" title="Add Sticky" onclick="addNotes(1)"></button>
+            </div>
+            <div id="divNotes1" style="padding:5px">
+                <div class="stickyNotes1">
+                    <textarea class="notesText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)">
+                            <a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">16</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+                    </div>
+                </div>
+                <div class="stickyNotes1">
+                    <textarea class="notesText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">6</span></label>
+
+
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="boxy" style="">
+            <div style="width:100%; text-align:center">
+                <h4 class="sectionTitle" style="display:inline">Title 2</h4>
+                <button class="addStickyButton fas fa-plus-circle" onclick="addNotes(2)" title="Add Sticky"></button>
+            </div>
+            <div id="divNotes2" style="padding:5px">
+                <div class="stickyNotes2">
+                    <textarea class="notesText">It was popularised in the 1960s with the release of Letraset </textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">3</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+                <div class="stickyNotes2">
+                    <textarea class="notesText">more recently with desktop publishing software</textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">7</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+                <div class="stickyNotes2">
+                    <textarea class="notesText">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in </textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">0</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+                <div class="stickyNotes2">
+                    <textarea class="notesText">consectetur, from a Lorem Ipsum passage, and going through the cites </textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">3</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxy" style="">
+            <div style="width:100%; text-align:center">
+                <h4 class="sectionTitle" style="display:inline">Title 3</h4>
+                <button class="addStickyButton fas fa-plus-circle" onclick="addNotes(3)" title="Add Sticky"></button>
+            </div>
+            <div id="divNotes3" style="padding:5px">
+                <div class="stickyNotes3">
+                    <textarea class="notesText">The standard chunk of Lorem Ipsum used since the 1500s</textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">5</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+                <div class="stickyNotes3">
+                    <textarea class="notesText">by English versions from the 1914 translation by H. Rackham.</textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">9</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+                <div class="stickyNotes3">
+                    <textarea class="notesText">words which don't look even slightly believable. If you are going to</textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">4</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+                <div class="stickyNotes3">
+                    <textarea class="notesText">a handful of model sentence structures, to generate Lorem Ip</textarea>
+                    <div class="notesCount">
+                        <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">12</span></label>
+                        <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template>
+        <div class="noteTemplate">
+            <textarea class="notesText"></textarea>
+            <div class="notesCount">
+                <label style="cursor:pointer" onclick="likeNote(this)"><a class="voteStickyButton fas fa-thumbs-up" title="Vote Up"></a> +<span class="count" title="Like">0</span></label>
+                <a class="removeStickyButton fas fa-trash-alt" style="float:right" onclick="deleteNote(this)" title="Delete"></a>
+
+            </div>
+        </div>
+    </template>
+</body>
+</html>
